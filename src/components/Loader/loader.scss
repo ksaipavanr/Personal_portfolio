@@ -1,0 +1,54 @@
+.aws-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black; 
+  
+    &__symbol {
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+  
+    &__arc {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 4px solid transparent;
+      border-radius: 50%;
+      animation: spin 1.5s linear infinite;
+  
+      &:nth-child(1) {
+        border-top-color: #ff9900; // AWS orange
+        animation-delay: 0s;
+      }
+  
+      &:nth-child(2) {
+        border-top-color: #00a1f1; // AWS blue
+        animation-delay: 0.5s;
+      }
+  
+      &:nth-child(3) {
+        border-top-color: #fbbc05; // AWS yellow
+        animation-delay: 1s;
+      }
+    }
+  
+    &__text {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #ffffff; // White text
+      font-family: Arial, sans-serif;
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,135 @@
+.expertise-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    background-color: #1a1a1a;
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+    }
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    h3 {
+        color: white;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    p {
+        color: #e0e0e0;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+}
+
+.icon-container {
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+
+    svg {
+        color: white;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.flex-chips {
+    .chip-title {
+        color: white;
+        display: block;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .chips-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+    .chip.MuiChip-root {
+        margin: 0.2rem !important;
+    }
+}
+
+.chip {
+    background-color: white !important;
+    color: #272822 !important;
+    font-size: 0.9rem !important;
+    height: 28px !important;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    span {
+        font-family: 'Courier Prime', monospace;
+    }
+}
+
+// Media Queries
+@media (max-width: 1024px) {
+    .skills-container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-section {
+        padding: 3rem 0;
+    }
+
+    .skill-card {
+        padding: 1.5rem;
+    }
+
+    .icon-container {
+        gap: 1.5rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-container h1 {
+        font-size: 2rem;
+    }
+
+    .skill-card h3 {
+        font-size: 1.25rem;
+    }
+
+    .icon-container svg {
+        font-size: 2.5rem;
+    }
+}

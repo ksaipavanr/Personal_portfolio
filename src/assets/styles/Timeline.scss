@@ -1,0 +1,78 @@
+.vertical-timeline span {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
+.vertical-timeline p {
+    color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element p {
+    color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element h3 {
+    color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element h4 {
+    color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element span {
+    color: rgb(39, 40, 34);
+}
+
+.vertical-timeline-element .vertical-timeline-element-date {
+    color: white;
+}
+
+.svg-inline--fa {
+    color: white;
+}
+// Add these new styles along with your existing styles
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+    transition: all 0.3s ease;
+    
+    // Light mode styles
+    background-color: #5000ca;
+    color: white;
+    border: 2px solid #5000ca;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+  // Dark mode styles
+@media (prefers-color-scheme: dark) {
+    .timeline-button {
+      background-color: #6419ff;
+      border-color: #6419ff;
+      color: white;
+      
+      &:hover {
+        background-color: #7733ff;
+        border-color: #7733ff;
+      }
+    }
+  }
+
+@media screen and (max-width: 1170px) {
+    .vertical-timeline-element .vertical-timeline-element-date {
+        color: rgb(39, 40, 34);
+    }
+}
