@@ -8,10 +8,10 @@ function Footer() {
   return (
     <footer>
       <div>
-      <a href="https://github.com/Ganesh8296" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-      <a href="https://www.linkedin.com/in/ganesh-kodmur-71a204274/?originalSubdomain=in" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-      <a href="https://www.instagram.com/ganesh_kodmur/?igsh=Z2Fxb283dDR1NzVr#" target="_blank" rel="noreferrer"><Instagram/></a>
-      <a href="mailto:ykodmur@gmail.com" target="_blank" rel="noreferrer"><Email/></a>
+      <a href="https://github.com/ksaipavanr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+      <a href="https://www.linkedin.com/in/kyasaram-sai-pavan-reddy-37832423a/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+      <a href="https://www.instagram.com/_sai_pavan_reddy?igsh=MTI5NjY2MWN2dWNoeQ==" target="_blank" rel="noreferrer"><Instagram/></a>
+      <a href="mailto:ksaipavanr45@gmail.com" target="_blank" rel="noreferrer"><Email/></a>
       </div>
       <p>Portfolio | Ganesh kodmur</p>
     </footer>
