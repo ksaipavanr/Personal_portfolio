@@ -30,10 +30,11 @@ const ResumeViewer: React.FC = () => {
 
     <div className="resume-viewer">
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
-        <Viewer
-          fileUrl="/react-portfolio-template/Kyasaram_Sai_Pavan_Reddy.pdf"
-          plugins={[defaultLayoutPluginInstance]}
-        />
+                <Viewer
+                  fileUrl={process.env.PUBLIC_URL + "/Kyasaram_Sai_Pavan_Reddy.pdf"}
+                  plugins={[defaultLayoutPluginInstance]}
+                />
+
       </Worker>
     </div>
     <div className="button-container">

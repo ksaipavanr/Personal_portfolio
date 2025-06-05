@@ -13,7 +13,7 @@ function Footer() {
       <a href="https://www.instagram.com/_sai_pavan_reddy?igsh=MTI5NjY2MWN2dWNoeQ==" target="_blank" rel="noreferrer"><Instagram/></a>
       <a href="mailto:ksaipavanr45@gmail.com" target="_blank" rel="noreferrer"><Email/></a>
       </div>
-      <p>Portfolio | Ganesh kodmur</p>
+      <p>Portfolio | Sai Pavan Reddy </p>
     </footer>
   );
 }
